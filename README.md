@@ -8,3 +8,4 @@ You can create an instance of the environment with `gym.make('gym_blackBird:blac
 
 Test the environment using : ```python3 BlackBird-gym/EnvTest.py ```
 
+![demo](demo.gif)
