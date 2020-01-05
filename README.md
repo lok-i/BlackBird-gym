@@ -4,7 +4,7 @@
 
 ### Description
 
-Blackbird is an open source, low-cost bipedal robot capable of high resolution force control. It is a research and education platform designed for college and post-grad students interested in studying the advanced field of robotics. Using a novel custom actuator design and supporting software, the system is capable of matching the control requirements of modern research robots for a fraction of the cost by replacing expensive hardware with complex electrical-control solutions. We have implemented multiple algorithms that allow the platform walk, run, spin, and jump based on modern research methods. Most of the design is 3D printed, including the actuators, which allows it to be easily manufactured by students and enthusiasts.
+Blackbird is an open source, low-cost bipedal robot capable of high resolution force control. It is a research and education platform designed for college and post-grad students interested in studying the advanced field of robotics.  We have implemented multiple algorithms that allow the platform walk, run, spin, and jump based on modern reinforcement learning methods. Most of the design is 3D printed, which allows it to be easily manufactured by students and enthusiasts.In order to enhance the ease of experimentation with this robot we have built a gym-environment that would enable researchers to directly deploy their RL alogorithms without having to worry about building the simulation environment.The environment is built in Pybullet ,a python wrapper for the famous bullet 3d engine and all the implementation is in native python.
 
 ### Installation
 
